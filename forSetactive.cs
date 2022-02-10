@@ -17,6 +17,9 @@ public class forSetactive : MonoBehaviour
         else if(SceneManager.GetActiveScene().buildIndex==2 && gameObject.GetComponent<ballIns>().enabled == true && ball.position.y<270f )
         {
             gameObject.GetComponent<ballIns>().enabled = false;
+            
+            
+            
         }
     }
 }
