@@ -19,7 +19,6 @@ public class colorChange : MonoBehaviour
         
         float t= Mathf.PingPong (Time.time, 3f) / 3f;
        
-
         if (SceneManager.GetActiveScene().buildIndex==2)
         {
             if (FindObjectOfType<bossscr>().canGo)
