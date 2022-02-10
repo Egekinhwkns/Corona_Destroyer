@@ -18,7 +18,6 @@ public class bossParts : MonoBehaviour
     {
 
         time += Time.deltaTime;
-        
         if (time>3f)
         {
             float a = UnityEngine.Random.Range(0, 2);
