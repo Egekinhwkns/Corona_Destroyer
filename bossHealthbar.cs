@@ -13,8 +13,6 @@ public class bossHealthbar : MonoBehaviour
     {
         HealthBar = GetComponent<Image>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         currentHealth = FindObjectOfType<bossscr>().healtBar;
