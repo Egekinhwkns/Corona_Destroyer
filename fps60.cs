@@ -11,3 +11,4 @@ public class fps60 : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 }
+//deneme123
