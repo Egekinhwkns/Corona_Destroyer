@@ -7,8 +7,6 @@ public class chaserSpawn : MonoBehaviour
 {
     public GameObject chaser;
     public float time=0f;
-
-
     void Update()
     {
         time += Time.deltaTime;
@@ -18,7 +16,9 @@ public class chaserSpawn : MonoBehaviour
             spawnChaser();
         }
     }
-
+    
+    //commit
+       //denemesi
     public void spawnChaser()
     {
         Instantiate(chaser, transform.position, Quaternion.identity);
