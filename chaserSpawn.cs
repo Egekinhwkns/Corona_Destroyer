@@ -7,8 +7,6 @@ public class chaserSpawn : MonoBehaviour
 {
     public GameObject chaser;
     public float time=0f;
-
-
     void Update()
     {
         time += Time.deltaTime;
