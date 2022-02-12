@@ -16,7 +16,9 @@ public class chaserSpawn : MonoBehaviour
             spawnChaser();
         }
     }
-
+    
+    //commit
+       //denemesi
     public void spawnChaser()
     {
         Instantiate(chaser, transform.position, Quaternion.identity);
