@@ -14,7 +14,6 @@ public class controlcol2 : MonoBehaviour
             go.SetActive(false);
         }
     }
-
     void makeVisible()
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
